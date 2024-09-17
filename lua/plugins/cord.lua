@@ -14,11 +14,11 @@ return{
         editor = {
           image = nil,                                -- Image ID or URL in case a custom client id is provided
           client = 'neovim',                          -- vim, neovim, lunarvim, nvchad, astronvim or your application's client id
-          tooltip = 'The Superior Text Editor',       -- Text to display when hovering over the editor's image
+          tooltip = 'Dekhlia?',                       -- Text to display when hovering over the editor's image
         },
         display = {
           show_time = true,                           -- Display start timestamp
-          show_repository = true,                     -- Display 'View repository' button linked to repository url, if any
+          show_repository = false,                     -- Display 'View repository' button linked to repository url, if any
           show_cursor_position = false,               -- Display line and column number of cursor's position
           swap_fields = false,                        -- If enabled, workspace is displayed first
           swap_icons = false,                         -- If enabled, editor is displayed on the main image
