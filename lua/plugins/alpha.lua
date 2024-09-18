@@ -37,10 +37,7 @@ return {
         }
         -- Custom buttons
         dashboard.section.buttons.val = {
-          dashboard.button("e", "  New file", "<cmd>enew<CR>"),
-          dashboard.button("o", "  Recent Files", "<cmd>Telescope oldfiles<cr>"),
           dashboard.button("f", "  Explorer", "<cmd>Explore<cr>"),
-          dashboard.button("c", "  Neovim config", "<cmd>e ~/.config/nvim/lua/user/ | cd %:p:h<cr>"),
           dashboard.button("l", "󰒲  Lazy", "<cmd>Lazy<cr>"),
           dashboard.button("q", "  Quit NVIM", ":qa<CR>"),
         }
