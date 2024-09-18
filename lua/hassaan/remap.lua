@@ -13,3 +13,7 @@ vim.api.nvim_set_keymap('n', '<leader>fc', ':Telescope flutter commands<CR>', { 
 vim.api.nvim_set_keymap('n', '<leader>fd', ':Telescope flutter devices<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>fe', ':Telescope flutter emulators<CR>', { noremap = true, silent = true })
 
+-- Set <leader>a to open the Alpha starter screen
+vim.api.nvim_set_keymap('n', '<leader>ss', ':Alpha<CR>', { noremap = true, silent = true })
+
+
